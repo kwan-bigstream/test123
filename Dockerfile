@@ -5,6 +5,7 @@ MAINTAINER BigStream Solutions, Inc.
 #ARG DEVICE=U200
 #ADD AppDef.json /etc/NAE/AppDef.json
 #RUN  sed -i "s/REPLACE_WITH_TYPE/$CARD_TYPE/" /etc/NAE/AppDef.json \
+# This is a tsting
 #     &&  curl --fail -X POST -d @/etc/NAE/AppDef.json https://api.jarvice.com/jarvice/validate
 # FPGA platform
 # Install Xilinx runtime
